@@ -1,0 +1,81 @@
+// .tercer {
+//     position: relative;
+// }
+
+// .segundo {
+//     position: relative;
+// }
+
+.contenedorsol {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: lightgray;
+}
+.tercer {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,154,0,1) 100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 202px -5px rgba(255,247,92,1);
+    opacity: 0;
+    transition: opacity 2s;
+    &:hover {
+        opacity: 0.05;
+    }
+}
+.segundo {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,154,0,1) 100%);
+    box-shadow: 0px 0px 265px 86px rgba(255,247,92,1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: opacity 3s;
+    &:hover {
+        opacity: 0.1;
+    }
+
+}
+.primer {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,154,0,1) 100%);
+    box-shadow: 0px 0px 265px 86px rgba(255,247,92,1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: opacity 3s;
+    &:hover {
+        opacity: 0.1;
+    }
+}
+.sol {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    box-shadow: 0px 0px 265px 86px rgba(255,247,92,1);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: opacity 3s;
+    &:hover {
+        opacity: 1;
+    }
+}

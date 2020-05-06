@@ -1,0 +1,93 @@
+.contenedor {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: lightgray;
+}
+
+.tercer {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background: white;
+  background: radial-gradient(circle, white 0%, #ff9a00 100%);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 0px 202px -5px #fff75c;
+          box-shadow: 0px 0px 202px -5px #fff75c;
+  opacity: 0;
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s;
+}
+
+.tercer:hover {
+  opacity: 0.05;
+}
+
+.segundo {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, white 0%, #ff9a00 100%);
+  -webkit-box-shadow: 0px 0px 265px 86px #fff75c;
+          box-shadow: 0px 0px 265px 86px #fff75c;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: opacity 3s;
+  transition: opacity 3s;
+}
+
+.segundo:hover {
+  opacity: 0.1;
+}
+
+.primer {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, white 0%, #ff9a00 100%);
+  -webkit-box-shadow: 0px 0px 265px 86px #fff75c;
+          box-shadow: 0px 0px 265px 86px #fff75c;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: opacity 3s;
+  transition: opacity 3s;
+}
+
+.primer:hover {
+  opacity: 0.1;
+}
+
+.sol {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  -webkit-box-shadow: 0px 0px 265px 86px #fff75c;
+          box-shadow: 0px 0px 265px 86px #fff75c;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: opacity 3s;
+  transition: opacity 3s;
+}
+
+.sol:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
